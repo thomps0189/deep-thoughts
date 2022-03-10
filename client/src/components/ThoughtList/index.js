@@ -18,7 +18,7 @@ const ThoughtList = ({ thoughts, title }) => {
                 style={{ fontWeight: 700 }}
                 className="text-light">
                 {thought.username}
-              </Link>
+              </Link>{" "}
               thought on {thought.createdAt}
             </p>
             <div className="card-body">
